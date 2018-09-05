@@ -1,8 +1,38 @@
-.icon {
+body{
     position: relative;
-    top: -22%;
+}
+.bg-vortex {
+    background: url("res/GreenVortexLandscape.jpg");
 }
 
+div.bg-vortex h1, div.bg-vortex p {
+    color: #c8cbcf;
+}
 
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+div.about-me {
+    background-color: aquamarine;
+}
+
+div.jumbotron {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+button.btn-lg {
+
+}
+
+div.cv-container{
+    height: 50vh;
+}
+
+#cv-snapshot {
+    height: auto;
+    width: 100%;
+}
 
 

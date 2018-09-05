@@ -35,4 +35,10 @@ div.cv-container{
     width: 100%;
 }
 
+#countVisits {
+    position: relative;
+}
 
+#animate-test{
+    position: relative;
+}

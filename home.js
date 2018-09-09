@@ -12,30 +12,23 @@ $(document).ready(function () {
     $('body').scrollspy({target: "#myNavBar", offset: 50});
 
 
-    $("#myNavBar a").on('click', function(event) {
+    $("#myNavBar a").on('click', function (event) {
 
-            var hash = this.hash;
-            if (hash !== "") {
+        var hash = this.hash;
+        if (hash !== "") {
 
-                event.preventDefault();
+            event.preventDefault();
 
-                $("html, body").animate(
-                    {scrollTop: $(this.hash).offset().top},
-                    800,
-                    function(){
-                        window.location.hash = hash;
-                    }
-                );
-            }
+            $("html, body").animate(
+                {scrollTop: $(this.hash).offset().top},
+                800,
+                function () {
+                    window.location.hash = hash;
+                }
+            );
+        }
     });
-
-    $("#animate-test").on("click", function(){
-
-        $(this).animate(
-            {margin: "10px"}
-        );
-        alert("test");
-    });
-
 });
+
+
 

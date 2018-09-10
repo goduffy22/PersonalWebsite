@@ -14,7 +14,6 @@ div.about-me {
 }
 
 div.jumbotron {
-    padding-top: 25px;
     padding-left: 3%;
     padding-right: 3%;
     margin-bottom: 0px;
@@ -39,4 +38,12 @@ div.cv-container{
 
 #animate-test{
     position: relative;
+}
+
+#portfolio-title{
+    text-align: center;
+}
+
+#portfolio-title{
+    background-color: lightsalmon;
 }

@@ -1,8 +1,10 @@
 body{
     position: relative;
 }
-.bg-vortex {
-    background: url("res/matrix_code_gif.gif");
+#sectionHome {
+    background-image: url("res/blue_universe.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.bg-vortex h1, div.bg-vortex p {

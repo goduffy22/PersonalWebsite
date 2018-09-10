@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 #sectionHome {
-    background-image: url("res/blue_universe.gif");
+    background: #005cbf ;
     background-repeat: no-repeat;
     background-size: cover;
 }

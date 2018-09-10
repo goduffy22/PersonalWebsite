@@ -46,6 +46,15 @@ $(document).ready(function () {
         }
     });
 
+    $("#navbar-list .nav-item .nav-link").hover(
+        function(){
+        $(this).addClass("badge-pill badge-primary");
+    },
+        function(){
+            $(this).removeClass("badge-pill badge-primary");
+        }
+        );
+
 });
 
 

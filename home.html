@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="modal" id="cv-dialogue" tabindex="-1" role="dialog">
+<div class="modal" id="modal-container" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
@@ -18,7 +18,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" id="close_button" data-dismiss="modal">Close</button>
 
-                <form method="get" action="res/CV_30.08.18.pdf">
+                <form method="get" action="res/CV_30.08.18.pdf" target="_blank">
                     <button class="btn-primary btn" type="submit">Download CV</button>
                 </form>
             </div>
@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark nav-pills bg-dark sticky-top">
     <a class="navbar-brand">
-        <img class="navBarIcon" src="res/Flower-Icon-BW.png" width="30" height="30" class="d-inline-block align-top">
+        <img class="navBarIcon d-inline-block align-top" src="res/Flower-Icon-BW.png" width="30" height="30">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,24 +52,24 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Links
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://github.com/goduffy22">GitHub page</a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item bg-dark text-white" href="https://github.com/goduffy22" target="_blank">GitHub page</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="trigger-cv-dialogue" data-toggle="modal" data-target="#cv-dialogue">CV</a>
+                <a class="nav-link" id="trigger-cv-dialogue" data-toggle="modal" data-target="#modal-container">CV</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
 </nav>
 
 
 
-    <div class="jumbotron jumbotron-fluid" id="sectionHome">
+    <div class="jumbotron jumbotron-fluid text-white" id="sectionHome">
         <h1 class="display-4">Welcome</h1>
         <p class="lead">This website is here as a portfolio for my programming skills</p>
         <hr class="my-4">
@@ -84,7 +84,9 @@
         </p>
           <p>  I am eager to take the next step, expand my knowledge/experience and start using my skills for bigger projects than just my personal ones which are mainly just for fun or to practice. Check out the computer languages I have learnt so far and my portfolio to see if I would be a good fit for your team!
         </p>
-        <button type="button" class="btn btn-primary" href="#">Go to CV download</button>
+        <form method="get" action="res/CV_30.08.18.pdf" target="_blank">
+            <button class="btn-primary btn" type="submit">Go to CV Download</button>
+        </form>
     </div>
 
     <div class="jumbotron jumbotron-fluid computer-languages" id="sectionComputerLanguages">

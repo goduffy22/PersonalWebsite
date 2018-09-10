@@ -3,7 +3,7 @@ body{
 }
 
 #sectionHome {
-    background: #005cbf ;
+    background-image: url("res/LongRoad.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

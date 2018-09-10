@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .bg-vortex {
-    background: url("res/GreenVortexLandscape.jpg");
+    background: url("res/matrix_code_gif.gif");
 }
 
 div.bg-vortex h1, div.bg-vortex p {
@@ -17,9 +17,14 @@ div.jumbotron {
     padding-left: 3%;
     padding-right: 3%;
     margin-bottom: 0px;
+    height: 100vh;
 }
 
 button.btn-lg {
+
+}
+
+div.jumbotron.begin {
 
 }
 
@@ -47,3 +52,4 @@ div.cv-container{
 #portfolio-title{
     background-color: lightsalmon;
 }
+

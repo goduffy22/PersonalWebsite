@@ -12,6 +12,23 @@ $(document).ready(function () {
     $('body').scrollspy({target: "#myNavBar", offset: 50});
 
 
+    $("#sectionHome a").on('click', function (event) {
+
+        var hash = this.hash;
+        if (hash !== "") {
+
+            event.preventDefault();
+
+            $("html, body").animate(
+                {scrollTop: $(this.hash).offset().top},
+                800,
+                function () {
+                    window.location.hash = hash;
+                }
+            );
+        }
+    });
+
     $("#myNavBar a").on('click', function (event) {
 
         var hash = this.hash;
@@ -29,7 +46,7 @@ $(document).ready(function () {
         }
     });
 
-
+    $("")
 });
 
 

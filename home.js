@@ -52,10 +52,32 @@ $(document).ready(function () {
     },
         function(){
             $(this).removeClass("badge-pill badge-primary");
-        }
-        );
+        });
 
 });
+
+
+
+function on(event){ //Need to generalise for all card overlay couples.
+    const source = event.srcElement;
+    const overlay = source.lastElementChild;
+    overlay.style.visibility = "visible";
+    overlay.style.width = "100%";
+    return overlay;
+}
+
+function off(){
+    const overlay = document.getElementById("overlay");
+
+        overlay.style.width = "0%";
+        overlay.style.visibility = "hidden";
+}
+
+document.getElementById("card1").addEventListener("mouseover", function(){
+
+});
+
+
 
 
 

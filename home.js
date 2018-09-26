@@ -59,23 +59,17 @@ $(document).ready(function () {
 
 
 function on(event){ //Need to generalise for all card overlay couples.
-    const source = event.srcElement;
-    const overlay = source.lastElementChild;
-    overlay.style.visibility = "visible";
+    const card = event.target;
+    const overlay = card.lastElementChild;
     overlay.style.width = "100%";
-    return overlay;
 }
 
-function off(){
-    const overlay = document.getElementById("overlay");
-
-        overlay.style.width = "0%";
-        overlay.style.visibility = "hidden";
+function off(event){
+    const card = event.target;
+    const overlay = card.lastElementChild;
+    overlay.style.width = "0%";
 }
 
-document.getElementById("card1").addEventListener("mouseover", function(){
-
-});
 
 
 

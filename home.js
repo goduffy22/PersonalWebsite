@@ -1,16 +1,6 @@
 $(document).ready(function () {
 
-    $("#countVisits").click(function () {
-
-        var count = parseInt($(".badge").text());
-        count++;
-        $(".badge").text(count);
-
-
-    });
-
     $('body').scrollspy({target: "#myNavBar", offset: 50});
-
 
     $("#sectionHome a").on('click', function (event) {
 

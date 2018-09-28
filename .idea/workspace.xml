@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e766def-a617-4ee2-9c43-f9cb73a14687" name="Default Changelist" comment="Add shinyApp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_home.css" afterDir="false" />
-    </list>
+    <list default="true" id="0e766def-a617-4ee2-9c43-f9cb73a14687" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -116,7 +111,7 @@
           <entry key="css" value="638" />
           <entry key="html" value="1006" />
           <entry key="js" value="1053" />
-          <entry key="txt" value="172" />
+          <entry key="txt" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -125,7 +120,7 @@
           <entry key="CSS" value="638" />
           <entry key="HTML" value="1006" />
           <entry key="JavaScript" value="1053" />
-          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="PLAIN_TEXT" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -139,7 +134,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
+            <state relative-caret-position="1098">
               <caret line="183" column="50" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
             </state>
           </provider>
@@ -309,7 +304,7 @@
       <workItem from="1537994170457" duration="295000" />
       <workItem from="1538038023749" duration="618000" />
       <workItem from="1538041619062" duration="2027000" />
-      <workItem from="1538134180661" duration="1737000" />
+      <workItem from="1538134180661" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="First Draft: General structure">
       <created>1536159294871</created>
@@ -430,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538042971178</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add data moving data visualisation videos from R">
+      <created>1538136430717</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538136430717</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136727000" />
+    <option name="totallyTimeSpent" value="136801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,9 +449,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782923" visible="true" weight="0.19101124" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782923" visible="true" weight="0.19101124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50217074" side_tool="true" weight="0.15664244" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -461,7 +462,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299566" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14761215" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14761215" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3299566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -570,7 +571,8 @@
     <MESSAGE value="Add overlay - difficulty with generalising for all card-overlay couplings." />
     <MESSAGE value="Add overlay - would have been easier doing it with just css but good practice anyway." />
     <MESSAGE value="Add shinyApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add shinyApp" />
+    <MESSAGE value="Add data moving data visualisation videos from R" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add data moving data visualisation videos from R" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css.map">
@@ -612,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
+        <state relative-caret-position="1098">
           <caret line="183" column="50" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
         </state>
       </provider>

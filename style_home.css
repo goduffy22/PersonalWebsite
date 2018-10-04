@@ -94,6 +94,12 @@ div.card-img-overlay a {
     color: white;
 }
 
+#portrait {
+    float: left;
+    max-height: 50%;
+
+}
+
 
 
 
